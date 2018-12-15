@@ -1,0 +1,54 @@
+extends layout.pug
+
+block content
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        //- Name
+        h1 Truman Smith
+
+        //- Title
+        p.lead.text-light
+          | QA Test Automation Developer with working knowledge of full stack JavaScript technologies
+
+        //- Elevator pitch
+        .portfolio-bio
+          p
+            | I've programmed automated tests for webpage application regression testing.
+            | I've tested websites, desktop applications, developer tools and enterprise systems.
+            | I have experience with fast-paced projects, Agile teams and startup companies.
+
+      .cell.portfolio-meta.small-6.medium-2.large-3
+
+        //- Skills.
+        h6 Skills
+        h7 Test Automation
+        ul
+          li Selenium
+          li Cucumber
+          li Ruby
+          li Python
+
+        h7 Full Stack JS
+        ul
+          li JavaScript
+          li jQuery
+          li Node
+          li Express
+          li Pug
+
+        //- Contact info
+        h6 Contact Info
+        ul
+          li 650-740-9773
+          li trumanwsmith@gmail.com
+
+        //- URLs to social media accounts.
+        a.button.expanded(href='https://www.linkedin.com/in/trumansmith/') LinkedIn
+        a.button.expanded(href='https://github.com/trumans') GitHub
+        //a.button.expanded(href='') Twitter
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back

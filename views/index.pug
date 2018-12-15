@@ -1,0 +1,23 @@
+extends layout.pug
+
+block content
+  article.grid-container.portfolio-intro
+    div
+
+      h1 Truman Smith
+
+      //- Description for your portfolio, what this project is, it's purpose, what it's suppossed to accomplish, etc.
+      p.lead.text-light
+        | Some of my Treehouse projects.
+  article.grid-container.portfolio-index
+
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+
+      //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
+
+      each project in projects
+
+        .cell
+          a(href=`/project/${project.id}`)
+            img.thumbnail(src=`/static/img/${project.id}/index_image.jpg`)
+            h5= project.project_name

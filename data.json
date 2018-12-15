@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "unit_4",
+      "project_name": "Phrase Hunter",
+      "description": "Guess letters to complete a well-known quote from a movie",
+      "technologies": ["JavaScript", "ping pong balls"],
+      "live_link": "https://trumans.github.io/treehouse-phrase-hunter-game/",
+      "github_link": "https://github.com/trumans/treehouse-phrase-hunter-game/",
+      "image_urls": ["image_1.jpg", "image_2.jpg", "image_3.jpg"]
+    },
+    {
+      "id": "unit_1",
+      "project_name": "Random Quotes",
+      "description": "App randomly selects a quote from a set of nine. Another quote is displayed every 10 seconds unless the user clicks the Show Another button.",
+      "technologies": ["JavaScript", "HTML"],
+      "live_link": "https://trumans.github.io/treehouse-random-quote/",
+      "github_link": "https://github.com/trumans/treehouse-random-quote/",
+      "image_urls": ["image_1.jpg", "image_2.jpg"]
+    }
+  ]
+}
