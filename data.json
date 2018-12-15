@@ -3,8 +3,8 @@
     {
       "id": "unit_4",
       "project_name": "Phrase Hunter",
-      "description": "Guess letters to complete a well-known quote from a movie",
-      "technologies": ["JavaScript", "ping pong balls"],
+      "description": "Guess letters to complete a movie quote. The keyboard highlights the letters that have been guessed. Up to 5 incorrect guesses are allowed.",
+      "technologies": ["HTML", "jQuery", "jQuery animation", "Object-Oriented JavaScript"],
       "live_link": "https://trumans.github.io/treehouse-phrase-hunter-game/",
       "github_link": "https://github.com/trumans/treehouse-phrase-hunter-game/",
       "image_urls": ["image_1.jpg", "image_2.jpg", "image_3.jpg"]
