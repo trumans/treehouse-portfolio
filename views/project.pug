@@ -1,8 +1,7 @@
 extends layout.pug
 
 block content
-  nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+  include includes/back_home.pug
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
@@ -17,12 +16,11 @@ block content
           each technology in project.technologies
             li #{technology}
 
-        a.button.expanded(href=`${project.live_link}`) Live Demo
-        a.button.expanded(href=`${project.github_link}`) GitHub Repo
+        a.button.expanded(href=`${project.live_link}`, target='_blank') Live Demo
+        a.button.expanded(href=`${project.github_link}`, target='_blank') GitHub Repo
 
     //- Screenshots from app
     each image in project.image_urls
       img.image(src=`/static/img/${project.id}/${image}`)
 
-  nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+  include includes/back_home.pug

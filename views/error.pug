@@ -1,0 +1,10 @@
+extends layout.pug
+
+block content
+  article.grid-container.portfolio-intro
+    div
+
+      h1 #{error.message} - Status: #{error.statusCode}
+      p(style="white-space:pre-wrap")= error.stack
+
+  include includes/back_home.pug
