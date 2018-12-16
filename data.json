@@ -1,6 +1,15 @@
 {
   "projects": [
     {
+      "id": "unit_5",
+      "project_name": "Employee Directory",
+      "description": "On-line employee directory for a fictious company. Data is retrieved from randomuser.me API. Employees can be filtered by name. Clicking on a card displays an overlay with more information and buttons to display adjacent employee cards on the grid.",
+      "technologies": ["HTML", "jQuery", "AJAX with public API"],
+      "live_link": "https://trumans.github.io/treehouse-employee-directory/",
+      "github_link": "https://github.com/trumans/treehouse-employee-directory/",
+      "image_urls": ["image_1.jpg", "image_2.jpg", "image_3.jpg"]
+    },
+    {
       "id": "unit_4",
       "project_name": "Phrase Hunter",
       "description": "Guess letters to complete a movie quote. The keyboard highlights the letters that have been guessed. Up to 5 incorrect guesses are allowed.",
