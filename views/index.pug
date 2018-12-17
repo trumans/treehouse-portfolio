@@ -4,7 +4,7 @@ block content
   article.grid-container.portfolio-intro
     div
 
-      h1 Truman Smith
+      h1.my-name Truman Smith
 
       //- Description for your portfolio, what this project is, it's purpose, what it's suppossed to accomplish, etc.
       p.lead.text-light
@@ -18,4 +18,4 @@ block content
         .cell
           a(href=`/project/${project.id}`)
             img.thumbnail(src=`/static/img/${project.id}/index_image.jpg`)
-            h5= project.project_name
+            h5.app-name= project.project_name
