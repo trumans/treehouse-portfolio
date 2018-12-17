@@ -15,7 +15,7 @@ block content
 
       //- Dynamically generate the routes in the href, img's src and the projects title.
       each project in projects
-        .cell
+        .cell.app-cell
           a(href=`/project/${project.id}`)
             img.thumbnail(src=`/static/img/${project.id}/index_image.jpg`)
-            h5.app-name= project.project_name
+            h5.app-name(align='center')= project.project_name

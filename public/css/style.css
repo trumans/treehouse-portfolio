@@ -160,3 +160,8 @@ a:hover{
 .app-name{
   font-family: 'Architects Daughter', serif;
 }
+
+.app-cell:hover{
+  transform: scale(1.10);
+  transition: all .3s ;
+}
