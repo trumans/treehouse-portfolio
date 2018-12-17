@@ -3,8 +3,8 @@
     {
       "id": "unit_5",
       "project_name": "Employee Directory",
-      "description": "On-line employee directory for a fictious company. Data is retrieved from randomuser.me API. Employees can be filtered by name. Clicking on a card displays an overlay with more information and buttons to display adjacent employee cards on the grid.",
-      "technologies": ["HTML", "jQuery", "AJAX with public API"],
+      "description": "On-line employee directory for a fictious company. Data is retrieved from randomuser.me API. Employees can be filtered by name. Clicking on a card displays an overlay with more information and buttons to display adjacent employee cards on the grid. Created for Full Stack JavaScript TechDegree, Unit 5: HTTP, public APIs",
+      "technologies": ["HTML", "jQuery", "AJAX and public API"],
       "live_link": "https://trumans.github.io/treehouse-employee-directory/",
       "github_link": "https://github.com/trumans/treehouse-employee-directory/",
       "image_urls": ["image_1.jpg", "image_2.jpg", "image_3.jpg"]
@@ -12,16 +12,25 @@
     {
       "id": "unit_4",
       "project_name": "Phrase Hunter",
-      "description": "Guess letters to complete a movie quote. The keyboard highlights the letters that have been guessed. Up to 5 incorrect guesses are allowed.",
+      "description": "Guess letters to complete a movie quote. The keyboard highlights the letters that have been guessed. Up to 5 incorrect guesses are allowed. Created for Full Stack JavaScript TechDegree, Unit 4: Object-oriented JavaScript.",
       "technologies": ["HTML", "jQuery", "jQuery animation", "Object-Oriented JavaScript"],
       "live_link": "https://trumans.github.io/treehouse-phrase-hunter-game/",
       "github_link": "https://github.com/trumans/treehouse-phrase-hunter-game/",
       "image_urls": ["image_1.jpg", "image_2.jpg", "image_3.jpg"]
     },
     {
+      "id": "four_in_a_row",
+      "project_name": "Four-in-a-row Game",
+      "description": "Similiar to the Connect Four game. Two players take turns to be the first to place four chips in a row either horizontally, vertically or diagonally. A new chip starts in the upper-left corner and is moved across slots with the keyboard left-arrow and right-arrow keys. The down-arrow key drops the chip. A new game is started by refreshing the page. Created for the Object Oriented JavaScript by Example course.",
+      "technologies": ["HTML", "Object-Oriented JavaScript"],
+      "live_link": "https://trumans.github.io/treehouse-four-in-a-row/",
+      "github_link": "https://github.com/trumans/treehouse-four-in-a-row/",
+      "image_urls": ["image_1.jpg", "image_2.jpg", "image_3.jpg", "image_4.jpg"]
+    },
+    {
       "id": "unit_3",
       "project_name": "Conference Registration",
-      "description": "Registration page for a fictitious conference. Fields are dynamically disabled or hidden based on other fields. Validation failures display error message near the invalid value. (Note: The form submission is not coded to post to an actual server.)",
+      "description": "Registration page for a fictitious conference. Fields are dynamically disabled or hidden based on other fields. Validation failures display error message near the invalid value. (Note: The form submission is not coded to post to an actual server.) Created for Full Stack JavaScript TechDegree, Unit 3: Interactive forms, jQuery.",
       "technologies": ["HTML", "jQuery", "jQuery animation" ],
       "live_link": "https://trumans.github.io/treehouse-interactive-form/",
       "github_link": "https://github.com/trumans/treehouse-interactive-form/",
@@ -30,7 +39,7 @@
     {
       "id": "unit_2",
       "project_name": "Student List",
-      "description": "List of students with pagination and filtering. Search term immediately filters the lists and updates pagination. Data is hardcoded in HTML.",
+      "description": "List of students with pagination and filtering. Entering a search term immediately filters the lists and updates pagination. Student data is hardcoded in HTML as an un-ordered list. A student is shown if it matches current filter and is on the currently selected page, otherwise it is hidden. Pagination button elements are regenerated every time the page is filtered. Created for Full Stack JavaScript TechDegree, Unit 2: CSS selectors, programmatically creating HTML.",
       "technologies": ["HTML", "JavaScript"],
       "live_link": "https://trumans.github.io/treehouse-paginate-filter-list/",
       "github_link": "https://github.com/trumans/treehouse-paginate-filter-list/",
@@ -39,7 +48,7 @@
     {
       "id": "unit_1",
       "project_name": "Random Quotes",
-      "description": "App randomly selects a quote from a set of nine. Another quote is displayed every 10 seconds unless the user clicks the Show Another button.",
+      "description": "Display a randomly selected a quote from a set of nine. Another quote is displayed every 10 seconds unless the user clicks the Show Another button. Quotes and citations are stored in an array with the index for the next quote is randomly selected. The previous quote and background are saved to avoid immediately repeating the same. Created for Full Stack JavaScript TechDegree, Unit 1: JavaScript Basics",
       "technologies": ["HTML", "JavaScript"],
       "live_link": "https://trumans.github.io/treehouse-random-quote/",
       "github_link": "https://github.com/trumans/treehouse-random-quote/",
