@@ -19,10 +19,28 @@
       "image_urls": ["image_1.jpg", "image_2.jpg", "image_3.jpg"]
     },
     {
+      "id": "unit_3",
+      "project_name": "Conference Registration",
+      "description": "Registration page for a fictitious conference. Fields are dynamically disabled or hidden based on other fields. Validation failures display error message near the invalid value. (Note: The form submission is not coded to post to an actual server.)",
+      "technologies": ["HTML", "jQuery", "jQuery animation" ],
+      "live_link": "https://trumans.github.io/treehouse-interactive-form/",
+      "github_link": "https://github.com/trumans/treehouse-interactive-form/",
+      "image_urls": ["image_1.jpg", "image_2.jpg", "image_3.jpg", "image_4.jpg", "image_5.jpg", "image_6.jpg", "image_7.jpg"]
+    },
+    {
+      "id": "unit_2",
+      "project_name": "Student List",
+      "description": "List of students with pagination and filtering. Search term immediately filters the lists and updates pagination. Data is hardcoded in HTML.",
+      "technologies": ["HTML", "JavaScript"],
+      "live_link": "https://trumans.github.io/treehouse-paginate-filter-list/",
+      "github_link": "https://github.com/trumans/treehouse-paginate-filter-list/",
+      "image_urls": ["image_1.jpg", "image_2.jpg", "image_3.jpg"]
+    },
+    {
       "id": "unit_1",
       "project_name": "Random Quotes",
       "description": "App randomly selects a quote from a set of nine. Another quote is displayed every 10 seconds unless the user clicks the Show Another button.",
-      "technologies": ["JavaScript", "HTML"],
+      "technologies": ["HTML", "JavaScript"],
       "live_link": "https://trumans.github.io/treehouse-random-quote/",
       "github_link": "https://github.com/trumans/treehouse-random-quote/",
       "image_urls": ["image_1.jpg", "image_2.jpg"]

@@ -28,7 +28,7 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
-// capture undefined routes to show a 404 message.
+// capture undefined routes to show a 404 error.
 app.use((req, res) => {
   console.log('In not-defined route');
   error = new Error('The page was not found');
