@@ -166,6 +166,12 @@ a:hover{
   transition: all .3s ;
 }
 
-.bk-img{
-  background-image: url(/static/img/background_code.jpg);
+.portfolio-bk-img{
+  background-image: url(/static/img/me_sidebar/background_code.jpg);
+}
+
+.img-center img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
