@@ -5,12 +5,12 @@ Project for Unit 6 - Node as a web server
 Comments regarding Extra Credit functionality are at the bottom of this page.
 
 Displays information pages for various client-side apps coded for units 1 - 5 in the Full Stack JavaScript TechDegree.
-HTTP requests are handled with Express. Pages are rendered using Pug templates. 
+HTTP requests are handled with Express. Pages are rendered using Pug templates.
 Project pages include a link to their github repository from where they can be launched.
 
 ## To launch ##
-1. In a terminal window: node index.js
-2. In a browser open: localhost:3000
+1. In a terminal window the server is started by either "node app.js" or "npm start"
+2. In a browser open localhost:3000
 
 ## Project Structure ##
 
@@ -38,7 +38,7 @@ Main page which runs from Node
 
 Routes are defined using Express get() and use() methods.
 
-### / (root) ###
+### / (home) ###
 
 Main page displaying various projects. Project data is read from data.json. Page is rendered using index.pug
 
@@ -74,4 +74,4 @@ The general error handler renders a page using the error.pug template which disp
 
 - On the index page, hovering over a project expands it slightly. The effect is applied to index.pug using the app-cell class defined at the bottom of style.css.
 
-- The "about me" sidebar has a background image of a computer screen. The image is added to layout.pug through the portfolio-bk-img class defined at the bottom of style.css. Also, in the portfolio-me class the font colors for paragraph and anchor elements are changed to contrast better against the background image.
+- The "about me" sidebar has a background color gradient from black to silver which is applied to layout.pug through the portfolio-bk class defined at the bottom of style.css.

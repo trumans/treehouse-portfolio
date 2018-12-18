@@ -2,8 +2,9 @@
   "name": "treehouse-portfolio",
   "version": "1.0.0",
   "description": "Project for Unit 6 - Node.js and Express. Portfolio of projects from first 5 units in Full JavaScript techdegree.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Truman Smith",
