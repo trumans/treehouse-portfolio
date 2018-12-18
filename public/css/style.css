@@ -169,9 +169,3 @@ a:hover{
 .portfolio-bk{
   background-image: linear-gradient(black, black, black, silver);
 }
-
-.img-center img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}

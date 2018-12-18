@@ -70,8 +70,8 @@ The general error handler renders a page using the error.pug template which disp
 
 ## CSS ##
 
-- On the index and project pages a different font is used for my name and the app names. They are imported from Google Fonts into layout.pug and used in the my-name and app-name classes defined at the bottom of style.css.
+- On the index and project pages a different **font** is used for my name and the app names. They are imported from Google Fonts into layout.pug and used in the my-name and app-name classes defined at the bottom of style.css.
 
-- On the index page, hovering over a project expands it slightly. The effect is applied to index.pug using the app-cell class defined at the bottom of style.css.
+- On the index page, hovering over a project expands it slightly (**transform, transition**). The effect is applied to index.pug using the app-cell class defined at the bottom of style.css.
 
-- The "about me" sidebar has a background color gradient from black to silver which is applied to layout.pug through the portfolio-bk class defined at the bottom of style.css.
+- The "about me" sidebar has a **background color** gradient from black to silver which is applied to layout.pug through the portfolio-bk class defined at the bottom of style.css.

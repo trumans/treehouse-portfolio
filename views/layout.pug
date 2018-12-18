@@ -11,6 +11,7 @@ html(class="no-js" lang="en" dir="ltr")
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
   body
+    //- About Me sidebar
     #my-info.off-canvas.position-left.reveal-for-large.portfolio-me.portfolio-bk(data-off-canvas='')
       .grid-y.grid-padding-x.portfolio-bk(style='height: 100%;')
         block sidebar
@@ -18,14 +19,9 @@ html(class="no-js" lang="en" dir="ltr")
           .cell.shrink
             img.thumbnail(src='/static/img/me_sidebar/Truman.jpg')
           .cell.auto
-
-            //- Name
             h5 Truman Smith
-
-            //- Summary of me
             p.text-light
               | I'm a software QA engineer with skills in building automated functionality tests for web apps.
-
             a(href='/about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')

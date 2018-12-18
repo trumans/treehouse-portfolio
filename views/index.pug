@@ -7,12 +7,12 @@ block content
       h1.my-name Truman Smith
 
       p.lead.text-light
-        | Here is a portfolio of my Treehouse projects and favorite exercises from courses.
+        | A portfolio of my Treehouse projects and favorite course exercises.
   article.grid-container.portfolio-index
 
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
 
-      //- Dynamically generate the routes in the href, img's src and the projects title.
+      //- Dynamically generate the route, thumbnail and title for each project
       each project in projects
         .cell.app-cell
           a(href=`/project/${project.id}`)

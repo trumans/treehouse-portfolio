@@ -5,7 +5,7 @@ block content
     div
       case error.statusCode
         when 404
-          img.img-center(src='/static/img/error/error_404.jpg')
+          img(src='/static/img/error/error_404.jpg')
         default
           img(src='/static/img/error/oops.jpg')
           h1 #{error.message} - Status: #{error.statusCode}
