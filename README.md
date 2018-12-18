@@ -2,8 +2,13 @@
 
 Project for Unit 6 - Node as a web server
 
-Displays various client-side apps coded for units 1 - 5 of Full Stack JavaScript TechDegree program.
-The project uses node.js as a web server for localhost:3000. Pages are rendered using Pug templates.
+Displays information pages for various client-side apps coded for units 1 - 5 in the Full Stack JavaScript TechDegree program.
+HTTP requests are handled with Express. Pages are rendered using Pug templates. 
+Project pages include a link to their github repository from where they can be launched.
+
+## To launch ##
+1. In a terminal window: node index.js
+2. In a browser open: localhost:3000
 
 ## Project Structure ##
 
@@ -47,7 +52,7 @@ The /project route searches the project data for an id that is equal to the URL 
 
 Throw an error 400. Included to verify general error handler.
 
-### catch-all route ###
+### not-defined routes ###
 
 If a route is not defined the catch-all handler creates an error object with status code 404 and forwards it to the general error handler.
 
