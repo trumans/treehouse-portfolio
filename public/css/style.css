@@ -69,13 +69,13 @@ a:hover{
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: #fff;
   }
 
   .portfolio-me a{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
+    color: #999;
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -83,7 +83,7 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: #fff;
   }
 
 .portfolio-breadcrumb{
@@ -164,4 +164,8 @@ a:hover{
 .app-cell:hover{
   transform: scale(1.10);
   transition: all .3s ;
+}
+
+.bk-img{
+  background-image: url(/static/img/background_code.jpg);
 }
