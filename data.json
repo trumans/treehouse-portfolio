@@ -10,6 +10,15 @@
       "image_urls": ["image_1.jpg", "image_2.jpg", "image_3.jpg"]
     },
     {
+      "id": "flickr_public",
+      "project_name": "Photos from Flickr",
+      "description": "Retrieve 20 recent photos from Flickr that are tagged with a search term. Clicking on a photo opens the its Flickr page. App calls a Flickr public API, parses the JSON response and builds the HTML grid of thumbnails. Although the app is an exercise from a course and the code is relatively simple, I enjoy the seeing what what it returns. Created in AJAX Basics course in Unit 5.",
+      "technologies": ["HTML", "jQuery", "AJAX and public API"],
+      "live_link": "https://trumans.github.io/treehouse-flickr-public-api/",
+      "github_link": "https://github.com/trumans/treehouse-flickr-public-api/",
+      "image_urls": ["image_1.jpg", "image_2.jpg", "image_3.jpg", "image_4.jpg"]
+    },
+    {
       "id": "unit_4",
       "project_name": "Phrase Hunter",
       "description": "Guess letters to complete a movie quote. The keyboard highlights the letters that have been guessed. Up to 5 incorrect guesses are allowed. Created for Full Stack JavaScript TechDegree, Unit 4: Object-oriented JavaScript.",
