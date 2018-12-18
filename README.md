@@ -2,7 +2,7 @@
 
 Project for Unit 6 - Node as a web server
 
-Displays information pages for various client-side apps coded for units 1 - 5 in the Full Stack JavaScript TechDegree program.
+Displays information pages for various client-side apps coded for units 1 - 5 in the Full Stack JavaScript TechDegree.
 HTTP requests are handled with Express. Pages are rendered using Pug templates. 
 Project pages include a link to their github repository from where they can be launched.
 
